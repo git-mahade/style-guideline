@@ -49,7 +49,6 @@
 1. [Ordering](#ordering)
 1. [`isMounted`](#ismounted)
 1. [Syntax](#syntax)
-
 - [Use ES6 classes.](#use-es2015-classes)
 - [Component method and property ordering](#component-method-and-property-ordering)
 - [Name handlers handleEventName.](#name-handlers-handleeventname)
@@ -57,30 +56,21 @@
 - [Open elements on the same line.](#open-elements-on-the-same-line)
 - [Align and sort HTML properties.](#align-and-sort-html-properties)
 - [Only export a single react class.](#only-export-a-single-react-class)
-
 1. [Language features](#language-features)
-
 - [Make "presentation" components pure.](#make-presentation-components-pure)
 - [Prefer <a href="http://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html#what-components-should-have-state">props to state</a>.](#prefer-props-to-state)
 - [<em>Never</em> store state in the DOM.](#never-store-state-in-the-dom)
-
 1. [Type-checking with Flow](#type-checking-with-flow)
-
 - [Use Flow instead of PropTypes](#use-flow-instead-of-proptypes)
 - [Annotate `children`](#annotate-children)
-
 1. [Server-side rendering](#server-side-rendering)
-
 - [Props must be plain JSON](#props-must-be-plain-json)
 - [Pure functions of props and state](#pure-functions-of-props-and-state)
 - [Side effect free until `componentDidMount`](#side-effect-free-until-componentdidmount)
-
 1. [React libraries and components](#react-libraries-and-components)
-
 - [Do not use Backbone models.](#do-not-use-backbone-models)
 - [Minimize use of jQuery.](#minimize-use-of-jquery)
 - [Reuse standard components.](#reuse-standard-components)
-
 1. [Formatting CSS](#formatting-css)
   - [80 columns, soft tabs of 2 spaces](#80-columns-soft-tabs-of-2-spaces)
   - [Camel case instead of dash-case for class names](#camel-case-instead-of-dash-case-for-class-names)
