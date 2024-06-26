@@ -4042,7 +4042,7 @@ AwesomeCard/
   - `import UserContainer from '...'`
   - `import { User as UserContainer } from '...'`
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Project organization
 
@@ -4082,7 +4082,7 @@ components. They represent the application routes and most times are
 displayed by a router. Pages are also responsible for handling container
 components callbacks and flowing data into children containers.
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Class vs `React.createClass` vs stateless
 
@@ -4191,7 +4191,7 @@ components callbacks and flowing data into children containers.
   }
   ```
 
-  [:arrow_up: Back to top][table-of-contents]
+  **[⬆ back to top](#table-of-contents)**
 
 - **Props Naming**: Avoid using DOM component prop names for different purposes.
 
@@ -4340,7 +4340,7 @@ components callbacks and flowing data into children containers.
   <Foo bar={baz} />
   ```
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Props
 
@@ -4543,7 +4543,7 @@ render() {
 }
 ```
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Refs
 
@@ -4720,7 +4720,7 @@ render() {
   }
   ```
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Ordering
 
@@ -5038,7 +5038,7 @@ should be stored in JavaScript, either in the React component itself,
 or in a React store if using a framework such as Redux.
 
 
-# Type-checking with [Flow](https://flow.org/)
+## Type-checking with [Flow](https://flow.org/)
 
 Flow is a type-checker that runs at compile-time to catch issues
 and prevent bugs. It should be used on all new components.
@@ -5264,7 +5264,7 @@ export default Item
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Never use ID and tag name as root selectors!
 
@@ -5341,7 +5341,7 @@ img {
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## When using multiple selectors, give each selector its own line
 
@@ -5379,7 +5379,7 @@ exceed 80 columns.
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Break lines in CSS function arguments
 
@@ -5424,7 +5424,7 @@ Sometimes, not to exceed the 80 columns limit, you need to break lines. While at
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## When writing rules, be sure to
 
@@ -5472,7 +5472,7 @@ Sometimes, not to exceed the 80 columns limit, you need to break lines. While at
 <tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## CSS Design Patterns
 
@@ -5520,7 +5520,7 @@ export default Input
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## The parent doesn't assume the child's structure
 
@@ -5574,7 +5574,7 @@ export default Button
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Components never leak margin
 
@@ -5625,7 +5625,7 @@ margin leakage! This allows the components to be much more reusable!
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ### The parent spaces the children
 
@@ -5680,7 +5680,7 @@ export default Reviews
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Nested classes aren't for providing scope
 
@@ -5771,7 +5771,7 @@ export default Input
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
 ## Variables, lots of variables!
 
@@ -5821,5 +5821,5 @@ To define a variable accessible globally:
 </tbody>
 </table>
 
-[:arrow_up: Back to top][table-of-contents]
+**[⬆ back to top](#table-of-contents)**
 
