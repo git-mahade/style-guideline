@@ -34,6 +34,8 @@
 ## Table of Contents
 
 1. [Basic Rules](#basic-rules)
+1. [Component definition](#component-definition)
+1. [Project organization](#project-organization)
 1. [Class vs `React.createClass` vs stateless](#class-vs-reactcreateclass-vs-stateless)
 1. [Mixins](#mixins)
 1. [Naming](#naming)
@@ -4018,6 +4020,75 @@ someFunction(obviousParam, /* shouldRender= */ true, /* name= */ "hello");
 - Always use JSX syntax.
 - Do not use `React.createElement` unless you’re initializing the app from a file that is not JSX.
 - [`react/forbid-prop-types`](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md) will allow `arrays` and `objects` only if it is explicitly noted what `array` and `object` contains, using `arrayOf`, `objectOf`, or `shape`.
+
+# Component definition
+
+All components (presentation, containers or pages) should **always** be
+defined as a directory, named with pascal casing. The main component file
+should be `index.js`, main stylesheet `style.css`. CSS custom properties
+can be kept in `properties.css`:
+
+```
+AwesomeCard/
+├── index.js
+├── properties.css
+└── style.css
+```
+
+* Styles should always be defined in a separate CSS file
+* Avoid prefixing or suffixing component names
+  - E.g.: `lib/pages/UserPage` or `lib/container/UserContainer`
+* On conflict rename on import time
+  - `import UserContainer from '...'`
+  - `import { User as UserContainer } from '...'`
+
+[:arrow_up: Back to top][table-of-contents]
+
+# Project organization
+
+Your project components should be separated in at least three directories:
+
+```
+awesome-react-project/
+└── src/
+   ├── components/
+   ├── containers/
+   └── pages/
+```
+
+Each of these directories have special types of components:
+
+### `components/`
+
+Stateless components. Shouldn't store state. Most components in this
+directory will be function-based components. Stuff like buttons, inputs,
+labels and all presentational components goes here. This components can
+also accept functions as props and dispatch events, but no state should
+be held inside.
+
+### `containers/`
+
+Container components can store state. Containers are built mostly from
+the composition of presentational components with some styles to layout
+them together. Containers can also store internal state and access refs
+to provide additional logic, but all actions should be accepted as
+component callbacks.
+
+### `pages/`
+
+Page components can store state, receive route parameters and dispatch
+Redux actions when applicable. Pages are the highest level of application's
+components. They represent the application routes and most times are
+displayed by a router. Pages are also responsible for handling container
+components callbacks and flowing data into children containers.
+
+[:arrow_up: Back to top][table-of-contents]
+
+# Code standards
+
+## Destruct your `props`
+
+### More than 2 props from an object been used in the same place should be destructed
 
 ## Class vs `React.createClass` vs stateless
 
