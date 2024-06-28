@@ -29,6 +29,25 @@
 1. [loops](#loops-and-conditional-statements)
 1. [Formatting](#formating)
 
+---
+
+# TypeScript Style Guide
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+1. [Types](#types)
+1. [Services](#services)
+1. [Functions](#functions)
+1. [Variables](#variables)
+1. [Null & Undefined](#null--undefined)
+1. [Naming](#naming)
+1. [React Components](#react-components)
+1. [Comments](#comments)
+1. [Source File Structure](#source-file-structure-and-best-practices)
+
+---
+
 # React/JSX Style Guide
 
 ## Table of Contents
@@ -82,23 +101,6 @@
 1. [Variables, lots of variables!](#variables-lots-of-variables)
 
 Certainly! Here's the TypeScript Best Practices and Guidelines organized into a structured table of contents format:
-
----
-
-# TypeScript Style Guide
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-1. [Types](#types)
-1. [Services](#services)
-1. [Functions](#functions)
-1. [Variables](#variables)
-1. [Null & Undefined](#null--undefined)
-1. [Naming](#naming)
-1. [React Components](#react-components)
-1. [Comments](#comments)
-1. [Source File Structure](#source-file-structure-and-best-practices)
 
 ---
 
