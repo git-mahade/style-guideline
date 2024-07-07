@@ -35,14 +35,14 @@
 
 ## Table of Contents
 
-1. [TS Types](#types)
-1. [TS Functions](#functions)
-1. [TS Variables](#variables)
-1. [TS Null & Undefined](#null--undefined)
-1. [TS Naming](#naming)
-1. [TS React Components](#react-components)
-1. [TS Comments](#comments)
-1. [TS Source File Structure](#source-file-structure-and-best-practices)
+1. [TS Types](#ts-types)
+1. [TS Functions](#ts-functions)
+1. [TS Variables](#ts-variables)
+1. [TS Null & Undefined](#ts-null--undefined)
+1. [TS Naming](#ts-naming)
+1. [TS React Components](#ts-react-components)
+1. [TS Comments](#ts-comments)
+1. [TS Source File Structure](#ts-source-file-structure-and-best-practices)
 
 ---
 
