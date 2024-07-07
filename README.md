@@ -4635,7 +4635,7 @@ const GetWin(params) => {...}
 const GetWindow(params) => {...}
 ```
 
-### React Components
+## TS React Components
 
 #### Prop Types
 
