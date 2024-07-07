@@ -35,14 +35,14 @@
 
 ## Table of Contents
 
-1. [Types Next](#types-next)
-1. [Functions Next](#functions-next)
-1. [Variables Next](#variables-next)
-1. [Null & Undefined](#null--undefined)
-1. [Naming](#naming)
-1. [React Components](#react-components)
-1. [Comments Next](#comments-next)
-1. [Source File Structure](#source-file-structure-and-best-practices)
+1. [TS Types](#types)
+1. [TS Functions](#functions)
+1. [TS Variables](#variables)
+1. [TS Null & Undefined](#null--undefined)
+1. [TS Naming](#naming)
+1. [TS React Components](#react-components)
+1. [TS Comments](#comments)
+1. [TS Source File Structure](#source-file-structure-and-best-practices)
 
 ---
 
@@ -4051,7 +4051,7 @@ someFunction(obviousParam, /* shouldRender= */ true, /* name= */ "hello");
 ```
 # TypeScript
 
-## Types Next
+## TS Types
 
 When creating types, we aim to accurately describe our code, which brings several benefits to the codebase:
 
@@ -4335,7 +4335,7 @@ As an exception, manually declare types only when there is truly no documentatio
 
 **[⬆ back to top](#table-of-contents)**
 
-## Functions Next
+## TS Functions
 
 ### General
 - Function should have single responsibility.
@@ -4403,7 +4403,7 @@ export const parseStatus = (params: StatusParams) => {...};
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## Variables Next
+## TS Variables
 
 ### Const Assertion
 Strive to use const assertion as `const`:
@@ -4477,7 +4477,7 @@ type ColorKey = keyof Color; // Type "primary" | "secondary" | "brand"
 type ColorValue = Color[ColorKey]; // Type "#B33930" | "#113A5C" | "#9C0E7D"
 ```
 
-## Type Union & Boolean Flags Next
+### Type Union & Boolean Flags
 
 Strive to use type union variables instead of multiple boolean flag variables.
 
@@ -4492,7 +4492,7 @@ const userStatus: UserStatus;
 
 When maintaining code that makes the number of possible states grow quickly because of flags, there are almost always unhandled states. Utilize discriminated unions.
 
-## Null & Undefined
+## TS Null & Undefined
 
 In TypeScript, types `null` and `undefined` can often be used interchangeably. Strive to:
 - Use `null` to explicitly state it has no value - assignment, return function type etc.
@@ -4500,7 +4500,7 @@ In TypeScript, types `null` and `undefined` can often be used interchangeably. S
 
 **[⬆ back to top](#table-of-contents)**
 
-## Naming
+## TS Naming
 
 Strive to keep naming conventions consistent and readable, with important context provided, because another person will maintain the code you have written.
 
@@ -4683,7 +4683,7 @@ const { fontSizes } = useTheme();
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## Comments Next
+## TS Comments
 
 In general, try to avoid comments by writing expressive code and naming things what they are.
 
@@ -4713,7 +4713,7 @@ Here's the TypeScript source file structure and best practices formatted with ma
 ---
 **[⬆ back to top](#table-of-contents)**
 
-## Source File Structure and Best Practices
+## TS Source File Structure and Best Practices
 
 Files should adhere to a structured format for clarity and maintainability.
 
