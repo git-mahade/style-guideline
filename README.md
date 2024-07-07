@@ -35,13 +35,13 @@
 
 ## Table of Contents
 
-1. [Types-next](#types-next)
-1. [Functions-next](#functions-next)
-1. [Variables-next](#variables-next)
+1. [Types Next](#types-next)
+1. [Functions Next](#functions-next)
+1. [Variables Next](#variables-next)
 1. [Null & Undefined](#null--undefined)
 1. [Naming](#naming)
 1. [React Components](#react-components)
-1. [Comments-next](#comments-next)
+1. [Comments Next](#comments-next)
 1. [Source File Structure](#source-file-structure-and-best-practices)
 
 ---
@@ -4051,7 +4051,7 @@ someFunction(obviousParam, /* shouldRender= */ true, /* name= */ "hello");
 ```
 # TypeScript
 
-## Types
+## Types Next
 
 When creating types, we aim to accurately describe our code, which brings several benefits to the codebase:
 
@@ -4335,7 +4335,7 @@ As an exception, manually declare types only when there is truly no documentatio
 
 **[⬆ back to top](#table-of-contents)**
 
-## Functions
+## Functions Next
 
 ### General
 - Function should have single responsibility.
@@ -4403,7 +4403,7 @@ export const parseStatus = (params: StatusParams) => {...};
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## Variables
+## Variables Next
 
 ### Const Assertion
 Strive to use const assertion as `const`:
@@ -4477,7 +4477,7 @@ type ColorKey = keyof Color; // Type "primary" | "secondary" | "brand"
 type ColorValue = Color[ColorKey]; // Type "#B33930" | "#113A5C" | "#9C0E7D"
 ```
 
-## Type Union & Boolean Flags
+## Type Union & Boolean Flags Next
 
 Strive to use type union variables instead of multiple boolean flag variables.
 
@@ -4683,7 +4683,7 @@ const { fontSizes } = useTheme();
 ```
 **[⬆ back to top](#table-of-contents)**
 
-## Comments
+## Comments Next
 
 In general, try to avoid comments by writing expressive code and naming things what they are.
 
